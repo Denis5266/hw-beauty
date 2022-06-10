@@ -363,10 +363,6 @@ body {
     list-style: none;
 }
 
-.pop_category_card li {
-    /* list-style: none; */
-}
-
 .pop_category_card a {
     font-weight: 400;
     font-size: 12px;
