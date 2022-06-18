@@ -22,12 +22,6 @@
     font-style: normal;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family:'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -104,11 +98,11 @@ body {
     padding: 11px 40px 11px 0;
 }
 
-.btn_call {
+.call_box .btn {
     float: right;
 }
 
-.btn_call a, .btn_more a, .btn_buy a, .btn_map a {
+.btn a {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -121,6 +115,7 @@ body {
 
 .main_nav {
     padding: 30px 0;
+    border-top: 1px solid #EFEFEF;
 }
 
 .main_nav ul {
@@ -169,11 +164,11 @@ body {
     padding-top: 50px;
 }
 
-.btn_more {
+.sc_content .btn {
     padding-top: 50px;
 }
 
-.btn_more a {
+.sc_content .btn a {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     padding: 12px 45px;
@@ -198,13 +193,12 @@ body {
     padding-top: 38px;
 }
 
-.cards_chairs_wrap ul {
-    float: left;
+.chair_card {
+    display: inline-block;
 }
 
 .cards_chairs_wrap li {
     max-width: 255px;
-    float: left;
     list-style: none;
     margin-right: 30px;
     background: #FFFFFF;
@@ -237,11 +231,11 @@ body {
     margin-top: 20px;
 }
 
-.btn_buy {
+.chair_card .btn {
     padding: 20px 63px 25px;
 }
 
-.btn_buy a {
+.chair_card .btn a {
     background: #F13C6E;
     color: #FFFFFF;
     border:1px solid #F13C6E;
@@ -298,7 +292,7 @@ body {
     clear:both;
 }
 
-.btn_map a {
+.map_card .btn a {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     float: left;
@@ -308,7 +302,7 @@ body {
 }
 
 .map_card img {
-    margin: 57px 46px 41px 95px;
+    margin: 57px 0px 0px 95px;
 }
 
 .implus_wrap {
@@ -359,8 +353,10 @@ body {
 }
 
 .pop_category_card ul {
-    margin-top: 55px;
+    margin-top: 27px;
+    padding-top: 27px;
     list-style: none;
+    border-top: 1px solid #EFEFEF;
 }
 
 .pop_category_card a {
@@ -395,7 +391,8 @@ body {
 }
 
 .icon_inst {
-    padding: 7px 10px 9px;
+    padding: 9px 10px 7px;
+    position: absolute;
 }
 
 .social_section .call_box {
