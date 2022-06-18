@@ -195,17 +195,17 @@ body {
 
 .chair_card {
     display: inline-block;
+    margin-right: 26px;
+}
+
+.chair_card:last-child {
+    margin: 0;
 }
 
 .cards_chairs_wrap li {
     max-width: 255px;
     list-style: none;
-    margin-right: 30px;
     background: #FFFFFF;
-}
-
-.cards_chairs_wrap li:last-child {
-    margin: 0;
 }
 
 .cards_chairs_wrap img {
