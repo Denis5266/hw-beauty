@@ -196,16 +196,13 @@ body {
 .chair_card {
     display: inline-block;
     margin-right: 26px;
+    max-width: 255px;
+    list-style: none;
+    background: #FFFFFF;
 }
 
 .chair_card:last-child {
     margin: 0;
-}
-
-.cards_chairs_wrap li {
-    max-width: 255px;
-    list-style: none;
-    background: #FFFFFF;
 }
 
 .cards_chairs_wrap img {
